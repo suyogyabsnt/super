@@ -1,0 +1,43 @@
+.playBackground{
+    display: flex;
+    flex-direction: column;
+}
+.AppBackGround{
+    background-color: #fff;
+    height: 50vh;
+    width: 50vh;
+    position: fixed; /* or absolute */
+    top: 25%;
+    left: 35%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-color: #333;
+      box-shadow: 4px 8px 10px 3px;
+   
+  }
+  .AppBackGround1{
+    background-color: #fff;
+    height: 50vh;
+    width: 50vh;
+    position: fixed; /* or absolute */
+    top: 25%;
+    left: 20%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-color: #333;
+      box-shadow: 4px 8px 10px 3px;
+   
+  }.AppBackGround2{
+    background-color: #fff;
+    height: 50vh;
+    width: 50vh;
+    position: fixed; /* or absolute */
+    top: 25%;
+    left: 55%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-color: #333;
+      box-shadow: 4px 8px 10px 3px;
+   
+  }
+ 
