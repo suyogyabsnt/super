@@ -4,6 +4,7 @@ import Collect from './Collect/index'
 const Round1 = (props) => {
 
     const [clicked, setClick]=useState(false);
+   
     const clickHandler=()=>{
         setClick(true)
     }
@@ -12,8 +13,10 @@ const Round1 = (props) => {
     }
 
     
-    const balanceHandler=()=>{
-        props.bankBalanceHandler(1000);
+    const balanceHandler=(bal)=>{
+        
+        props.bankBalanceHandler(bal);
+        
     }
     if (clicked==false){
     return (
